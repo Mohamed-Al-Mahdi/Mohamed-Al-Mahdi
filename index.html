@@ -1,53 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mohamed Al Mahdi | AI Engineer Profile</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Al Mahdi - AI Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="header">
-    <h1>Mohamed Al Mahdi</h1>
-  </header>
-  <main>
-    <section class="about-me">
-      <div class="profile-pic-placeholder">
-        <img src="profile.jpg" alt="Profile picture of Mohamed Al Mahdi" />
-      </div>
-      <div class="about-text">
-        <h2>About Me</h2>
-        <p>
-          I am an AI Engineer currently in my 3rd year of college, driven by a strong ambition to specialize in Large Language Model (LLM) engineering. My passion lies in advancing AI technologies and contributing to the future of intelligent systems.
-        </p>
-      </div>
+    <nav>
+        <div class="container">
+            <a href="#" class="nav-logo">
+                <svg width="40" height="40" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50 150 L85 50 L120 150" stroke="#00aaff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M110 120 L150 120" stroke="#00aaff" stroke-width="15" stroke-linecap="round"/>
+                </svg>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="resume.pdf" download class="nav-button">Resume</a></li>
+            </ul>
+            <div class="burger-menu">
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <h1>Mohamed Al Mahdi</h1>
+            <p>AI Engineer | LLM Enthusiast</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <img src="my_phto.jpg" alt="Mohamed Al Mahdi" class="profile-pic">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>I am a passionate and driven AI Engineer, currently in my third year of college, with a strong focus on becoming an LLM Engineer. I am eager to apply my growing expertise in building and fine-tuning large language models to create innovative and impactful AI solutions. I am always open to connecting with fellow professionals and exploring new opportunities in the field.</p>
+                </div>
+            </div>
+        </div>
     </section>
-    <section class="quick-facts">
-      <h2>Quick Facts</h2>
-      <ul>
-        <li><strong>Birthdate:</strong> December 28, 2005</li>
-      </ul>
+
+    <section id="skills" class="fade-in">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card fade-in">Python</div>
+                <div class="skill-card fade-in">PyTorch</div>
+                <div class="skill-card fade-in">TensorFlow</div>
+                <div class="skill-card fade-in">Scikit-learn</div>
+                <div class="skill-card fade-in">Natural Language Processing</div>
+                <div class="skill-card fade-in">Prompt Engineering</div>
+                <div class="skill-card fade-in">Machine Learning</div>
+            </div>
+        </div>
     </section>
-    <section class="skills-interests">
-      <h2>Skills & Interests</h2>
-      <ul>
-        <li><strong>AI/ML Fundamentals:</strong> Machine Learning, Natural Language Processing (NLP)</li>
-        <li><strong>Programming Languages:</strong> Python</li>
-        <li><strong>Embedded Systems:</strong> Arduino, ESP32, Microcontrollers</li>
-      </ul>
+
+    
+
+    <section id="education" class="fade-in">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-item fade-in">
+                <h3>AI Engineering</h3>
+                <p><em>Al Ain University | Expected Graduation: 2027</em></p>
+            </div>
+        </div>
     </section>
-    <section class="connect">
-      <h2>Connect</h2>
-      <ul>
-        <li><a href="https://www.linkedin.com/in/mohamed-al-amhdi/" target="_blank" rel="noopener">LinkedIn</a></li>
-        <li><a href="https://github.com/Mohamed-Al-Mahdi" target="_blank" rel="noopener">GitHub</a></li>
-        <li><a href="mailto:mohamed.almahdi2005@gmail.com">Gmail</a></li>
-      </ul>
+
+    <section id="projects" class="fade-in">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card fade-in">
+                    <h3>Small Language Model</h3>
+                    <p>This project explores the world of Small Language Models (SLMs). While Large Language Models (LLMs) are powerful, their size can be a limitation. I developed this SLM to efficiently handle smaller-scale tasks, such as powering a simple chatbot or a virtual assistant.</p>
+                    <!-- <a href="#" target="_blank">View Project</a> -->
+                </div>
+            </div>
+        </div>
     </section>
-  </main>
-  <footer class="footer">
-    <p>&copy; 2024 Mohamed Al Mahdi. All rights reserved.</p>
-  </footer>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+            <a href="mailto:mohamed.almahdi2005@gmail.com" class="contact-button">Email Me</a>
+            <div class="contact-socials">
+                <a href="https://github.com/Mohamed-Al-Mahdi" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mohamed-al-mahdi/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Mohamed Al Mahdi</p>
+        </div>
+    </footer>
+
+    <a href="#" class="scroll-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="script.js"></script>
 </body>
-</html> 
+</html>
